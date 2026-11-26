@@ -27,4 +27,17 @@ Same idea with a cleaner approach on a `products` table. Connection, `Statement`
 **Learned:** `try-with-resources`, reading columns by name or index (index starts at **1**).
 
 ---
+Day 3: CRUD part 1, INSERT and DELETE (Day3.java, Day3P2.java)
 
+Changed data in a departments table instead of only reading it.
+
+File	Operation
+Day3.java	INSERT a new row
+Day3P2.java	DELETE a row
+
+Learned:
+
+executeQuery() is for SELECT. executeUpdate() is for INSERT, UPDATE, and DELETE.
+executeUpdate() returns the number of rows affected.
+Always use WHERE with DELETE, or every row is removed.
+Backticks quote table and column names in MySQL.
